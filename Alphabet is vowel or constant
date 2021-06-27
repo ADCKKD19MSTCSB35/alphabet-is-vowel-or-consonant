@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+class alphabet
+ {
+   public static void  main(String argv[])
+ { 
+ 	
+ 	
+   Scanner G=new Scanner(System.in);
+ 	  System.out.println(" Give a alphabet \n");
+   char s=G.next().charAt(0);
+   switch(s)
+ {
+   case 'a':
+   case 'e':
+   case 'i':
+   case 'o':
+   case 'u':
+            System.out.println("vowel"); 
+               break;
+   default:	
+           System.out.println("consonant");
+ }
+ }
+ }
+
+OUTPUT:
+RUN-1:
+ Give a alphabet:
+a
+Vowel 
+RUN-2:
+Give a alphabet:
+w 
+Consonant
